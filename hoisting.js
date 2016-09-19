@@ -9,16 +9,19 @@ var callMe = function callMe() {
 
 callMe()
 
-var crazy = function () {
-  var thisIsCrazy = function(){
+function crazy() {
+  thisIsCrazy()
+  function thisIsCrazy(){
       console.log("hey!!!")
   }
 }
-crazy()()
 
-var sayMyName = function() {
-    sayMy = function(){
+
+function sayMyName() {
+    var name = "Cricky"
+    sayMy()
+    function sayMy() {
     var name = "Kristin";
-    console.log(name);
+      console.log(name);
   }
 }
