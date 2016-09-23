@@ -5,12 +5,11 @@ function callMe() {
   console.log("but here's my number..");
   console.log("so call me");
   return lyric;
-
 }
 
 
 function crazy() {
-  // fix the code in here:
+  // declaration and assignment need to be before function call
   var thisIsCrazy = function (){
     console.log("hey!!!")
   }
@@ -18,9 +17,7 @@ function crazy() {
 }
 
 function sayMyName() {
-  // fix the code in here:
   var name = "Cricky";
-
   sayMy();
 
   // this works because the entire function is hoisted.
