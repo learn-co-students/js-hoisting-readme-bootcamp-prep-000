@@ -1,30 +1,34 @@
+var lyric = "maybe";
 function callMe() {
   console.log("I just met you...");
   console.log("and this is crazy..");
   console.log("but here's my number..");
   console.log("so call me");
   return lyric;
-  var lyric = "maybe";
+  //Move to global -> var lyric = "maybe";
 }
 
+callMe(); //Make the function call
 
 function crazy() {
   // fix the code in here:
-  thisIsCrazy();
+  //Move out of this part of function --> thisIsCrazy();
 
   var thisIsCrazy = function (){
     console.log("hey!!!")
   }
+  thisIsCrazy(); //move to here
 }
 
 function sayMyName() {
   // fix the code in here:
   var name = "Cricky";
-
-  sayMy();
+  var name = "Kristin"; //Moved this variable up from function sayMy()
+  // move the function call like the one before ---> sayMy();
 
   function sayMy() {
     console.log(name);
-    var name = "Kristin";
+
   }
+  sayMy(); //move here
 }
