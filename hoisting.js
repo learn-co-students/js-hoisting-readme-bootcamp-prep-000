@@ -10,27 +10,36 @@ function callMe() {
   return lyric;
 }
 
-/*function crazy() {
+function crazy() {
   // fix the code in here:
   console.log("hey!!!")
   var thisIsCrazy = function() {
     thisIsCrazy();
   }
-}*/
-function crazy() {
+}
+/*function crazy() {
   // fix the code in here:
   var thisIsCrazy = function (){
     console.log("hey!!!");
   }
 thisIsCrazy();
-}
+}*/
 
-function sayMyName() {
+/*function sayMyName() {
   // fix the code in here:
   var name = "Cricky";
   sayMy();
   function sayMy() {
 var name = "Kristen";
     console.log(name);
+  }
+}*/
+function sayMyName() {
+  // fix the code in here:
+  var name = "Kristin";
+  console.log(name);
+  var name = "Cricky"
+  function sayMy() {
+    sayMy();
   }
 }
