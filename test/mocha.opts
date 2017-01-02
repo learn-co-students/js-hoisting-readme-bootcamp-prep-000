@@ -28,3 +28,5 @@ var name = "Kristen";
     console.log(name);
   }
 }
+
+--timeout 1000
