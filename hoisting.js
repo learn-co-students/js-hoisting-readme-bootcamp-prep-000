@@ -7,14 +7,21 @@ function callMe() {
   var lyric = "maybe";
 }
 
+function callMe(){
+  return "maybe"
+}
+
 
 function crazy() {
   // fix the code in here:
-  thisIsCrazy();
+  function thisIsCrazy(){
 
-  var thisIsCrazy = function (){
+  var thisIsCrazy = function crazy(){
     console.log("hey!!!")
+    crazy();
   }
+  thisIsCrazy();
+}
 }
 
 function sayMyName() {
