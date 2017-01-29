@@ -9,7 +9,7 @@ function callMe() {
 
 var thisIsCrazy = function () {
   console.log("hey!!!")
-} 
+}
 function crazy() {
   // fix the code in here:
   thisIsCrazy();
@@ -17,12 +17,13 @@ function crazy() {
 
 function sayMyName() {
   // fix the code in here:
+  var name = "Cricky";
 
   sayMy();
 
   function sayMy() {
     console.log(name);
     var name = "Kristin";
+    return sayMy()
   }
-    var name = "Cricky";
 }
