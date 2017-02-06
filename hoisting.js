@@ -1,30 +1,40 @@
+var lyric = "maybe";
 function callMe() {
   console.log("I just met you...");
   console.log("and this is crazy..");
   console.log("but here's my number..");
   console.log("so call me");
+
   return lyric;
-  var lyric = "maybe";
+
 }
+
+//callMe(lyric);
 
 
 function crazy() {
   // fix the code in here:
-  thisIsCrazy();
 
-  var thisIsCrazy = function (){
+
+  thisIsCrazy = function (){
     console.log("hey!!!")
   }
+thisIsCrazy();
 }
 
-function sayMyName() {
+crazy()
+ var name = "Cricky";
+function sayMyName(name) {
   // fix the code in here:
-  var name = "Cricky";
 
-  sayMy();
+  var name = "Kristin";
+  function sayMy(name) {
 
-  function sayMy() {
     console.log(name);
-    var name = "Kristin";
+
+
   }
+  sayMy(name);
 }
+
+sayMyName();
