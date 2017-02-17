@@ -35,7 +35,6 @@ describe('hoisting', () => {
     describe('crazy', () => {
       it("prints 'hey!!!' to the console from the nested function", () => {
         crazy()
-
         expect(console.log).to.have.been.called.with("hey!!!")
       })
     })
