@@ -20,7 +20,7 @@ describe('hoisting', () => {
   describe('callMe', () => {
     it("returns the string 'maybe'", () => {
       expect(callMe()).to.equal("maybe");
-    })
+    });
   })
 
   describe('loggers', () => {
@@ -35,7 +35,6 @@ describe('hoisting', () => {
     describe('crazy', () => {
       it("prints 'hey!!!' to the console from the nested function", () => {
         crazy()
-
         expect(console.log).to.have.been.called.with("hey!!!")
       })
     })
