@@ -22,18 +22,16 @@ function crazy() {
 return  thisIsCrazy();
 }
 
+
+
+
+
 function sayMyName() {
   // fix the code in here:
   var name = "Cricky";
-//sayMy();
- console.log(`${sayMy()}`)
-
-
-
 function sayMy() {
 var name = "Kristin";
-//return "Kristin";
-//console.log('Kristin');
-} //console.log(`${sayMy()}`);
-sayMy();
-  }
+console.log(name);
+}
+ sayMy();
+}
