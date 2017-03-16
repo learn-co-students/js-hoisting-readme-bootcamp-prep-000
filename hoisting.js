@@ -28,5 +28,3 @@ function sayMy() {
   }
   sayMy();
 }
-
-sayMyName();
