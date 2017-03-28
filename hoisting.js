@@ -22,10 +22,10 @@ function sayMyName() {
   // fix the code in here:
   var name = "Cricky";
 
-  sayMy();
-
   function sayMyName() {
    var name = "Kristin";
     console.log(name);
   }
+  sayMyName();
+
 }
