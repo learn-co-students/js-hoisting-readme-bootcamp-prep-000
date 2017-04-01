@@ -8,21 +8,38 @@ function callMe() {
   }
 
 
+//Original Code
+  // function crazy() {
+  //   // fix the code in here:
+  //   thisIsCrazy();
+  //
+  //   var thisIsCrazy = function (){
+  //     console.log("hey!!!")
+  //   }
+  // }
 
 
-
+  function crazy() {
+    // fix the code in here:
 var thisIsCrazy = function (){
-  thisIsCrazy();
-function crazy() {
-  // fix the code in here:
 
 
-  var thisIsCrazy = function (){
-    console.log("hey!!!")
+      console.log("hey!!!")
+
+    }
+    thisIsCrazy();
   }
-}
-}
 
+
+
+//   function crazy() {
+//     // fix the code in here:
+//     var thisIsCrazy = function (){
+//     thisIsCrazy();
+//       console.log("hey!!!")
+//     }
+//   }
+// crazy();
 
 
 
