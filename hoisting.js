@@ -1,3 +1,4 @@
+nes (24 sloc)  499 Bytes
 function callMe() {
   console.log("I just met you...");
   console.log("and this is crazy..");
@@ -9,7 +10,6 @@ function callMe() {
 
 
 function crazy() {
-  // fix the code in here:
   thisIsCrazy();
 
   var thisIsCrazy = function (){
@@ -17,19 +17,13 @@ function crazy() {
   }
 }
 
-crazy();
-
 function sayMyName() {
-  // fix the code in here:
   var name = "Cricky";
 
   sayMy();
-}
 
   function sayMy() {
     console.log(name);
     var name = "Kristin";
   }
-
-
-sayMy();
+}
